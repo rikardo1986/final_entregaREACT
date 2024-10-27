@@ -1,0 +1,42 @@
+.item-detail-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem;
+  margin-top: 1.25rem;
+}
+
+.item-detail-content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1.875rem;
+  background-color: #f8f9fa;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.item-detail-image {
+  max-width: 18.75rem;
+  border-radius: 0.625rem;
+  object-fit: cover;
+}
+
+.item-detail-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.item-title {
+  font-size: 2rem;
+  margin-bottom: 0.625rem;
+  color: #113330;
+}
+
+.item-description {
+  font-size: 1.2rem;
+  margin-bottom: 1.25rem;
+  color: #555;
+}

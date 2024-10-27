@@ -1,0 +1,48 @@
+.container-navbar {
+  background-image: linear-gradient(
+    to left,
+    #974cdc,
+    #597afb,
+    #009bff,
+    #00b5ff,
+    #00cbf7,
+    #33bde5,
+    #45afd3,
+    #4b475d,
+    #2d242c,
+    #000000,
+    #000000,
+    #000000
+  );
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-logo {
+  width: 18rem;
+  height: auto;
+}
+
+.categories-list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-link {
+  text-decoration: none;
+  font-size: 2.2rem;
+  color: rgb(0, 0, 0);
+  padding: 10px 15px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.category-link:hover {
+  background-color: #007bff;
+  color: white;
+  border-color: #007bff;
+}

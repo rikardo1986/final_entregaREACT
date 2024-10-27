@@ -1,0 +1,13 @@
+.card-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+h2 {
+  width: 100%;
+  font-size: 3rem;
+  color: #113330;
+  margin-bottom: 15px;
+  text-align: center;
+}

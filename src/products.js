@@ -1,0 +1,167 @@
+export const products = [
+  {
+    id: "1",
+    title: "HP 15-ef1018l",
+    price: 1200,
+    stock: 20,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/eirqcairczrpkbaxvgz6.png",
+    description: "laptop compacta y versátil",
+    brand: "HP",
+    category: "notebooks",
+  },
+  {
+    id: "2",
+    title: "Lenovo Ideapad 3 14ITL6",
+    price: 1500,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741149/notebook/vokubqxfr2ojdoch9zv6.png",
+    description: "laptop rapida y versátil",
+    brand: "LENOVO",
+    category: "notebooks",
+  },
+  {
+    id: "3",
+    title: "Acer Aspire 3",
+    price: 1100,
+    stock: 51,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/lemosuhnx6kqi80rwfbm.png",
+    description: "rendimiento y productividad",
+    brand: "ACER",
+    category: "notebooks",
+  },
+  {
+    id: "4",
+    title: "Asus Vivobook Go 14",
+    price: 2000,
+    stock: 40,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/wkretcnywx4f72achppe.png",
+    description: "la laptop que te permite hacer todo",
+    brand: "ASUS",
+    category: "notebooks",
+  },
+  {
+    id: "5",
+    title: "Toshiba 1TB Canvio Basics",
+    price: 30,
+    stock: 20,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/obnqht6hrzdawndsszkb.png",
+    description: "Disco Duro Externo",
+    brand: "Toshiba",
+    category: "discos",
+  },
+  {
+    id: "6",
+    title: "Toshiba 4TB Canvio Advance",
+    price: 60,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/lc5ka7wto5jhcd3ds36o.png",
+    description: "Disco Duro Externo",
+    brand: "Toshiba",
+    category: "discos",
+  },
+  {
+    id: "7",
+    title: "Seagate 1TB Para Ps4",
+    price: 60,
+    stock: 8,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/deiinhjyyj2wq0aqiro3.png",
+    description: "Disco Duro Externo",
+    brand: "Seagate",
+    category: "discos",
+  },
+  {
+    id: "8",
+    title: "Seagate 1TB Basic",
+    price: 45,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/yz4ag3drtcq11iufdmbw.png",
+    description: "Disco Duro Externo",
+    brand: "Seagate",
+    category: "discos",
+  },
+  {
+    id: "9",
+    title: "WD 2TB Element ",
+    price: 50,
+    stock: 10,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/gkxcoah4ftnxm4dre6ap.png",
+    description: "Disco Duro Externo",
+    brand: "WD",
+    category: "discos",
+  },
+  {
+    id: "10",
+    title: "WD 1TB Element",
+    price: 45,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/qns3dc0bhqac1uwmhasw.png",
+    description: "Disco Duro Externo",
+    brand: "WD",
+    category: "discos",
+  },
+  {
+    id: "11",
+    title: "HP Deskjet Multifuncional 2774 Color",
+    price: 110,
+    stock: 10,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729982778/impresoras/xvmwmsgapas4lfaqfjcj.jpg",
+    description: "Impresora Multifuncional",
+    brand: "HP",
+    category: "impresoras",
+  },
+  {
+    id: "12",
+    title: "Canon Pixma E-402",
+    price: 120,
+    stock: 5,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729982778/impresoras/v3xjnwtzw4tzx8ycz1cs.jpg",
+    description: "Impresora Multifuncional",
+    brand: "Canon",
+    category: "impresoras",
+  },
+  {
+    id: "13",
+    title: "Logitech HD Pro C920e",
+    price: 20,
+    stock: 30,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/hrfnomo4wqqhgof4gyqz.png",
+    description: "Camara Web",
+    brand: "Logitech",
+    category: "camaras",
+  },
+  {
+    id: "14",
+    title: "Genius 1000X HD V2",
+    price: 21,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/lkwzgugp1qehfqw1t0oz.png",
+    description: "Camara Web",
+    brand: "Genius",
+    category: "camaras",
+  },
+  {
+    id: "15",
+    title: "Philco 1080p",
+    price: 21,
+    stock: 15,
+    imageUrl:
+      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983234/camaras/bbp23cvtlyjjhj5zjgi6.jpg",
+    description: "Camara Web",
+    brand: "Philco",
+    category: "camaras",
+  },
+];
