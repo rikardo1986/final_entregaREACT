@@ -2,13 +2,13 @@ import "./counter.css";
 import { useState } from "react";
 
 const Counter = ({ stock, agregarAlCarrito }) => {
-  const [contador, setContador] = useState(0);
+  const [contador, setContador] = useState(1);
 
   const sumar = () => {
     stock > contador ? setContador(contador + 1) : alert("limite stock");
   };
   const restar = () => {
-    setContador(contador - 1);
+    contador > 1 && setContador(contador - 1);
   };
 
   return (
