@@ -8,15 +8,24 @@ const Footer = () => {
         py: 3,
         px: 2,
         mt: "auto",
-        backgroundColor: (theme) =>
-          theme.palette.mode === "light"
-            ? theme.palette.grey[200]
-            : theme.palette.grey[800],
+        backgroundColor: "black",
+        color: "white",
         textAlign: "center",
+        position: "fixed",
+        bottom: 0,
+        left: 0,
+        width: "100%",
       }}
     >
       <Typography variant="body1">© 2024 CompuEnter</Typography>
-      <Typography variant="body2" color="text.secondary">
+
+      <Typography variant="body2">
+        <Link href="mailto:contacto@compuenter.com" color="inherit">
+          contacto@compuenter.com
+        </Link>
+      </Typography>
+
+      <Typography variant="body2">
         <Link href="https://example.com" color="inherit">
           Términos de Servicio
         </Link>

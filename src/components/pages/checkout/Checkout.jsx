@@ -45,7 +45,7 @@ const Checkout = () => {
         />
         <div className="button-group">
           <button type="submit" className="submit-button">
-            Comprar
+            Pagar
           </button>
           <button type="button" className="cancel-button">
             Cancelar

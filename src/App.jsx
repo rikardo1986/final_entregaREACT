@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Checkout from "./components/pages/checkout/Checkout";
 import { CartContextProvider } from "./context/CartContext";
 import { Toaster } from "sonner";
-import { routes } from "./routes/routes";
-import Layout from "./components/layout/Layout";
 import ProtectedRoutes from "./routes/ProtectedRoutes";
+import Layout from "./components/layout/Layout";
+import { routes } from "./routes/routes";
 
 function App() {
   return (
@@ -25,4 +25,5 @@ function App() {
     </BrowserRouter>
   );
 }
+
 export default App;
