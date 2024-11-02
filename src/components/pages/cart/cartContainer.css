@@ -20,7 +20,7 @@
 
 .cart-empty {
   font-size: 1.8rem;
-  color: #555;
+  color: #009bff;
   margin-top: 20px;
 }
 
@@ -82,6 +82,12 @@
 .cart-reset-button:hover {
   background-color: #e0a800;
   transform: scale(1.05);
+}
+
+.cart-total {
+  color: #974cdc;
+  font-size: 2.5rem;
+  padding: 10px 20px;
 }
 
 .cart-checkout-button {

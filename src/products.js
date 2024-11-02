@@ -2,8 +2,8 @@ export const products = [
   {
     id: "1",
     title: "HP 15-ef1018l",
-    price: 1200,
-    stock: 20,
+    price: 399000,
+    stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/eirqcairczrpkbaxvgz6.png",
     description: "laptop compacta y versátil",
@@ -13,7 +13,7 @@ export const products = [
   {
     id: "2",
     title: "Lenovo Ideapad 3 14ITL6",
-    price: 1500,
+    price: 369990,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741149/notebook/vokubqxfr2ojdoch9zv6.png",
@@ -24,8 +24,8 @@ export const products = [
   {
     id: "3",
     title: "Acer Aspire 3",
-    price: 1100,
-    stock: 51,
+    price: 499990,
+    stock: 12,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/lemosuhnx6kqi80rwfbm.png",
     description: "rendimiento y productividad",
@@ -35,8 +35,8 @@ export const products = [
   {
     id: "4",
     title: "Asus Vivobook Go 14",
-    price: 2000,
-    stock: 40,
+    price: 419990,
+    stock: 18,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/wkretcnywx4f72achppe.png",
     description: "la laptop que te permite hacer todo",
@@ -46,7 +46,7 @@ export const products = [
   {
     id: "5",
     title: "Toshiba 1TB Canvio Basics",
-    price: 30,
+    price: 64990,
     stock: 20,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/obnqht6hrzdawndsszkb.png",
@@ -57,7 +57,7 @@ export const products = [
   {
     id: "6",
     title: "Toshiba 4TB Canvio Advance",
-    price: 60,
+    price: 159990,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/lc5ka7wto5jhcd3ds36o.png",
@@ -68,7 +68,7 @@ export const products = [
   {
     id: "7",
     title: "Seagate 1TB Para Ps4",
-    price: 60,
+    price: 64990,
     stock: 8,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/deiinhjyyj2wq0aqiro3.png",
@@ -79,7 +79,7 @@ export const products = [
   {
     id: "8",
     title: "Seagate 1TB Basic",
-    price: 45,
+    price: 54990,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/yz4ag3drtcq11iufdmbw.png",
@@ -89,8 +89,8 @@ export const products = [
   },
   {
     id: "9",
-    title: "WD 2TB Element ",
-    price: 50,
+    title: "WD 2TB Element",
+    price: 74900,
     stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/gkxcoah4ftnxm4dre6ap.png",
@@ -101,7 +101,7 @@ export const products = [
   {
     id: "10",
     title: "WD 1TB Element",
-    price: 45,
+    price: 62.016,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/qns3dc0bhqac1uwmhasw.png",
@@ -112,7 +112,7 @@ export const products = [
   {
     id: "11",
     title: "HP Deskjet Multifuncional 2774 Color",
-    price: 110,
+    price: 189990,
     stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729982778/impresoras/xvmwmsgapas4lfaqfjcj.jpg",
@@ -123,7 +123,7 @@ export const products = [
   {
     id: "12",
     title: "Canon Pixma E-402",
-    price: 120,
+    price: 49990,
     stock: 5,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729982778/impresoras/v3xjnwtzw4tzx8ycz1cs.jpg",
@@ -134,7 +134,7 @@ export const products = [
   {
     id: "13",
     title: "Logitech HD Pro C920e",
-    price: 20,
+    price: 86990,
     stock: 30,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/hrfnomo4wqqhgof4gyqz.png",
@@ -145,18 +145,18 @@ export const products = [
   {
     id: "14",
     title: "Genius 1000X HD V2",
-    price: 21,
+    price: 15990,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/lkwzgugp1qehfqw1t0oz.png",
-    description: "Camara Web",
+    description: "Calidad de imagen 720p HD para videoconferencias nítidas",
     brand: "Genius",
     category: "camaras",
   },
   {
     id: "15",
     title: "Philco 1080p",
-    price: 21,
+    price: 39990,
     stock: 15,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983234/camaras/bbp23cvtlyjjhj5zjgi6.jpg",

@@ -31,13 +31,14 @@
 }
 
 .card-price {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: #009fa5;
+  font-weight: bold;
   margin-bottom: 5px;
 }
 
 .card-stock {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #974cdc;
   margin-bottom: 15px;
 }
