@@ -14,7 +14,7 @@ export const products = [
     id: "2",
     title: "Lenovo Ideapad 3 14ITL6",
     price: 369990,
-    stock: 15,
+    stock: 8,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741149/notebook/vokubqxfr2ojdoch9zv6.png",
     description: "laptop rapida y versátil",
@@ -25,7 +25,7 @@ export const products = [
     id: "3",
     title: "Acer Aspire 3",
     price: 499990,
-    stock: 12,
+    stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/lemosuhnx6kqi80rwfbm.png",
     description: "rendimiento y productividad",
@@ -36,7 +36,7 @@ export const products = [
     id: "4",
     title: "Asus Vivobook Go 14",
     price: 419990,
-    stock: 18,
+    stock: 11,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/wkretcnywx4f72achppe.png",
     description: "la laptop que te permite hacer todo",
@@ -47,7 +47,7 @@ export const products = [
     id: "5",
     title: "Toshiba 1TB Canvio Basics",
     price: 64990,
-    stock: 20,
+    stock: 12,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/obnqht6hrzdawndsszkb.png",
     description: "Disco Duro Externo",
@@ -58,7 +58,7 @@ export const products = [
     id: "6",
     title: "Toshiba 4TB Canvio Advance",
     price: 159990,
-    stock: 15,
+    stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/lc5ka7wto5jhcd3ds36o.png",
     description: "Disco Duro Externo",
@@ -80,7 +80,7 @@ export const products = [
     id: "8",
     title: "Seagate 1TB Basic",
     price: 54990,
-    stock: 15,
+    stock: 11,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/yz4ag3drtcq11iufdmbw.png",
     description: "Disco Duro Externo",
@@ -102,7 +102,7 @@ export const products = [
     id: "10",
     title: "WD 1TB Element",
     price: 62.016,
-    stock: 15,
+    stock: 12,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/qns3dc0bhqac1uwmhasw.png",
     description: "Disco Duro Externo",
@@ -113,7 +113,7 @@ export const products = [
     id: "11",
     title: "HP Deskjet Multifuncional 2774 Color",
     price: 189990,
-    stock: 10,
+    stock: 6,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729982778/impresoras/xvmwmsgapas4lfaqfjcj.jpg",
     description: "Impresora Multifuncional",
@@ -135,7 +135,7 @@ export const products = [
     id: "13",
     title: "Logitech HD Pro C920e",
     price: 86990,
-    stock: 30,
+    stock: 7,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/hrfnomo4wqqhgof4gyqz.png",
     description: "Camara Web",
@@ -146,7 +146,7 @@ export const products = [
     id: "14",
     title: "Genius 1000X HD V2",
     price: 15990,
-    stock: 15,
+    stock: 8,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983235/camaras/lkwzgugp1qehfqw1t0oz.png",
     description: "Calidad de imagen 720p HD para videoconferencias nítidas",
@@ -157,7 +157,7 @@ export const products = [
     id: "15",
     title: "Philco 1080p",
     price: 39990,
-    stock: 15,
+    stock: 10,
     imageUrl:
       "https://res.cloudinary.com/dmezvexmw/image/upload/v1729983234/camaras/bbp23cvtlyjjhj5zjgi6.jpg",
     description: "Camara Web",

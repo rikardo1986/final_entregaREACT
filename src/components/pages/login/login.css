@@ -4,16 +4,15 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #1b1b1b;
+  background-color: #000000;
 }
 
 .login-logo {
-  width: 150px;
-  margin-bottom: 20px;
+  width: 30rem;
 }
 
 .login-title {
-  color: #ffffff;
+  color: #67d6da;
   font-size: 1.5rem;
   margin-bottom: 1rem;
 }
@@ -41,7 +40,7 @@
   width: 100%;
   padding: 0.8rem;
   margin-top: 1rem;
-  background-color: #36c2f5;
+  background-color: #8332cf;
   color: white;
   border: none;
   border-radius: 4px;

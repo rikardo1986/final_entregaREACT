@@ -21,7 +21,7 @@ const Footer = () => {
 
       <Typography variant="body2">
         <Link href="mailto:contacto@compuenter.com" color="inherit">
-          contacto@compuenter.com
+          contacto@compuenter.cl
         </Link>
       </Typography>
 
