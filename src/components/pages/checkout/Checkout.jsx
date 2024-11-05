@@ -10,8 +10,6 @@ const Checkout = () => {
 
   const funcionDelFormulario = (evento) => {
     evento.preventDefault();
-    console.log("se envia");
-    console.log(userInfo);
   };
 
   const capturarInfo = (evento) => {

@@ -1,7 +1,7 @@
 import CartContainer from "../components/pages/cart/CartContainer";
 import ItemDetailContainer from "../components/pages/itemDetail/ItemDetailContainer";
 import { ItemListContainer } from "../components/pages/itemListContainer/ItemListContainer";
-import { Login } from "../components/pages/login/Login";
+import Login from "../components/pages/login/Login";
 import NotFound from "../components/pages/notFound/NotFound";
 
 export const routes = [

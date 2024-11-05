@@ -1,8 +1,10 @@
 import { Outlet, Navigate } from "react-router-dom";
 
 const ProtectedRoutes = () => {
-  const isAuth = false;
-  return <div>{isAuth ? <Outlet /> : <Navigate to={"/login"} />}</div>;
+  // Verificar si el usuario está autenticado guardando un estado en sessionStorage
+  const isAuth = sessionStorage.getItem("isAuth") === "true";
+
+  return isAuth ? <Outlet /> : <Navigate to="/login" />;
 };
 
 export default ProtectedRoutes;
