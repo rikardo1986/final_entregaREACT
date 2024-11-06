@@ -1,17 +1,17 @@
 export const products = [
+  // {
+  //   id: "1",
+  //   title: "HP 15-ef1018l",
+  //   price: 399000,
+  //   stock: 10,
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/eirqcairczrpkbaxvgz6.png",
+  //   description: "laptop compacta y versátil",
+  //   brand: "HP",
+  //   category: "notebooks",
+  // },
   {
-    id: "1",
-    title: "HP 15-ef1018l",
-    price: 399000,
-    stock: 10,
-    imageUrl:
-      "https://res.cloudinary.com/dmezvexmw/image/upload/v1728741148/notebook/eirqcairczrpkbaxvgz6.png",
-    description: "laptop compacta y versátil",
-    brand: "HP",
-    category: "notebooks",
-  },
-  {
-    id: "2",
+    // id: "2",
     title: "Lenovo Ideapad 3 14ITL6",
     price: 369990,
     stock: 8,
@@ -33,7 +33,7 @@ export const products = [
     category: "notebooks",
   },
   {
-    id: "4",
+    // id: "4",
     title: "Asus Vivobook Go 14",
     price: 419990,
     stock: 11,
@@ -43,19 +43,19 @@ export const products = [
     brand: "ASUS",
     category: "notebooks",
   },
+  // {
+  //   id: "5",
+  //   title: "Toshiba 1TB Canvio Basics",
+  //   price: 64990,
+  //   stock: 12,
+  //   imageUrl:
+  //     "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/obnqht6hrzdawndsszkb.png",
+  //   description: "Disco Duro Externo",
+  //   brand: "Toshiba",
+  //   category: "discos",
+  // },
   {
-    id: "5",
-    title: "Toshiba 1TB Canvio Basics",
-    price: 64990,
-    stock: 12,
-    imageUrl:
-      "https://res.cloudinary.com/dmezvexmw/image/upload/v1729980234/discos/obnqht6hrzdawndsszkb.png",
-    description: "Disco Duro Externo",
-    brand: "Toshiba",
-    category: "discos",
-  },
-  {
-    id: "6",
+    // id: "6",
     title: "Toshiba 4TB Canvio Advance",
     price: 159990,
     stock: 10,
@@ -66,7 +66,7 @@ export const products = [
     category: "discos",
   },
   {
-    id: "7",
+    // id: "7",
     title: "Seagate 1TB Para Ps4",
     price: 64990,
     stock: 8,
@@ -77,7 +77,7 @@ export const products = [
     category: "discos",
   },
   {
-    id: "8",
+    // id: "8",
     title: "Seagate 1TB Basic",
     price: 54990,
     stock: 11,
@@ -88,7 +88,7 @@ export const products = [
     category: "discos",
   },
   {
-    id: "9",
+    // id: "9",
     title: "WD 2TB Element",
     price: 74900,
     stock: 10,
@@ -99,7 +99,7 @@ export const products = [
     category: "discos",
   },
   {
-    id: "10",
+    // id: "10",
     title: "WD 1TB Element",
     price: 62.016,
     stock: 12,
@@ -110,7 +110,7 @@ export const products = [
     category: "discos",
   },
   {
-    id: "11",
+    // id: "11",
     title: "HP Deskjet Multifuncional 2774 Color",
     price: 189990,
     stock: 6,
@@ -121,7 +121,7 @@ export const products = [
     category: "impresoras",
   },
   {
-    id: "12",
+    // id: "12",
     title: "Canon Pixma E-402",
     price: 49990,
     stock: 5,
@@ -132,7 +132,7 @@ export const products = [
     category: "impresoras",
   },
   {
-    id: "13",
+    // id: "13",
     title: "Logitech HD Pro C920e",
     price: 86990,
     stock: 7,
@@ -143,7 +143,7 @@ export const products = [
     category: "camaras",
   },
   {
-    id: "14",
+    // id: "14",
     title: "Genius 1000X HD V2",
     price: 15990,
     stock: 8,
@@ -154,7 +154,7 @@ export const products = [
     category: "camaras",
   },
   {
-    id: "15",
+    // id: "15",
     title: "Philco 1080p",
     price: 39990,
     stock: 10,
