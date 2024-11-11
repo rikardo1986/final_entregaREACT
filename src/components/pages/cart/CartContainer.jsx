@@ -21,6 +21,7 @@ const CartContainer = () => {
             <div className="cart-item-info">
               <h2>{product.title}</h2>
               <h3>Cantidad: {product.quantity}</h3>
+              <h4>Precio unitario: $ {product.price}</h4>
             </div>
             <button
               onClick={() => removeById(product.id)}
@@ -37,7 +38,7 @@ const CartContainer = () => {
           Limpiar carrito
         </button>
       )}
-      <h2 className="cart-total">El total a pagar es {totalEnElCarrito}</h2>
+      <h2 className="cart-total">El total a pagar es: $ {totalEnElCarrito}</h2>
 
       <Link to="/checkout" className="cart-checkout-button">
         Finalizar compra
