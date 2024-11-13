@@ -1,4 +1,4 @@
-import "./ItemDetail.css";
+import "./itemDetail.css";
 import React from "react";
 import Counter from "../../common/counter/Counter";
 
