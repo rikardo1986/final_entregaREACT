@@ -51,12 +51,19 @@ const Checkout = () => {
 
   if (orderId) {
     return (
-      <h2 className="mensaje">
-        Gracias por tu compra, tu ticket es:{" "}
-        <span className="order-id">{orderId}</span>
-      </h2>
+      <div className="voucher-container">
+        <h2 className="voucher-title">🎉 ¡Gracias por tu compra! 🎉</h2>
+        <p className="voucher-message">
+          Tu número de orden es:
+          <span className="voucher-order-id"> {orderId}</span>
+        </p>
+        <p className="voucher-note">
+          Recibirás un correo electrónico con los detalles de tu compra.
+        </p>
+      </div>
     );
   }
+
   const deleteById = (id) => {};
 
   return (

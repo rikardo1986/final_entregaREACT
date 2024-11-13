@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import logo from "../../../assets/compuenter_logo.png";
 import "./Login.css";
 
 const Login = () => {
@@ -10,14 +9,17 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleLogin = () => {
-    // simulamos el login y almacenamos el estado de autenticación
     sessionStorage.setItem("isAuth", "true");
     navigate("/checkout");
   };
 
   return (
     <div className="login-container">
-      <img src={logo} alt="COMPUENTER Logo" className="login-logo" />
+      <img
+        src="https://res.cloudinary.com/dmezvexmw/image/upload/v1731513992/logo/kzjq5ymxdjx5rblo77g7.png"
+        alt="COMPUENTER Logo"
+        className="login-logo"
+      />
       <h2 className="login-title">Iniciar Sesión</h2>
       <form
         className="login-form"

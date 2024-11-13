@@ -69,14 +69,40 @@
   background-color: #c82333;
 }
 
-.mensaje {
-  margin-top: 2rem;
+.voucher-container {
+  max-width: 50%;
+  margin: 3rem auto;
+  padding: 2rem;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
   text-align: center;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #009bff;
+  border: 2px solid #009bff;
 }
 
-.order-id {
+.voucher-title {
+  font-size: 2.5rem;
+  color: #009bff;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.voucher-message {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.voucher-order-id {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 2rem;
   color: #974cdc;
+  font-weight: bold;
+}
+
+.voucher-note {
+  font-size: 1rem;
+  color: #888;
+  margin-top: 1.5rem;
 }

@@ -11,7 +11,7 @@ const Footer = () => {
         backgroundColor: "black",
         color: "white",
         textAlign: "center",
-        position: "fixed",
+        position: "sticky",
         bottom: 0,
         left: 0,
         width: "100%",

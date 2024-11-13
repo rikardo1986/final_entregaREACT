@@ -13,13 +13,13 @@
 }
 
 .notfound-title {
-  color: #ffffff;
-  font-size: 4rem;
+  color: #00cbf7;
+  font-size: 5rem;
   margin-bottom: 0.5rem;
 }
 
 .notfound-text {
-  color: #ffffff;
-  font-size: 1.5rem;
+  color: #6a12cb;
+  font-size: 3rem;
   text-align: center;
 }
