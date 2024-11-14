@@ -40,9 +40,15 @@ const CartContainer = () => {
       )}
       <h2 className="cart-total">El total a pagar es: $ {totalEnElCarrito}</h2>
 
-      <Link to="/checkout" className="cart-checkout-button">
-        Finalizar compra
-      </Link>
+      {cart.length === 0 ? (
+        <Link to="/" className="cart-return-button">
+          Ir al inicio
+        </Link>
+      ) : (
+        <Link to="/checkout" className="cart-checkout-button">
+          Finalizar compra
+        </Link>
+      )}
     </div>
   );
 };

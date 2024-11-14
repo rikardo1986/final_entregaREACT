@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap");
+
 .card-list {
   display: flex;
   justify-content: space-around;
@@ -6,6 +8,7 @@
 }
 
 h2 {
+  font-family: "Poppins", sans-serif;
   width: 100%;
   font-size: 3rem;
   font-weight: bold;

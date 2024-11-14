@@ -6,7 +6,6 @@ import { Skeleton } from "@mui/material";
 
 import { db } from "../../../firebaseConfig";
 import { collection, getDocs, query, where, addDoc } from "firebase/firestore";
-// import { products } from "../../../products";
 
 export const ItemListContainer = () => {
   const { name } = useParams();

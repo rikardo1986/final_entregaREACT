@@ -8,12 +8,15 @@ const Counter = ({ stock, agregarAlCarrito, totalInCart }) => {
     if (stock - totalInCart > contador) {
       setContador(contador + 1);
     } else {
-      alert("limite stock");
+      alert("Límite de stock alcanzado");
     }
   };
+
   const restar = () => {
     contador > 1 && setContador(contador - 1);
   };
+
+  const isOutOfStock = totalInCart + contador > stock;
 
   return (
     <div className="counter-container">
@@ -29,8 +32,10 @@ const Counter = ({ stock, agregarAlCarrito, totalInCart }) => {
       <button
         className="add-to-cart-button"
         onClick={() => agregarAlCarrito(contador)}
+        disabled={isOutOfStock}
+        style={{ backgroundColor: isOutOfStock ? "#ccc" : "#28a745" }}
       >
-        Agregar al Carrito
+        {isOutOfStock ? "Sin stock" : "Agregar al Carrito"}
       </button>
     </div>
   );

@@ -2,15 +2,7 @@ import "./checkout.css";
 import { useContext, useState } from "react";
 import { CartContext } from "../../../context/CartContext";
 import { db } from "../../../firebaseConfig";
-import {
-  addDoc,
-  collection,
-  deleteDoc,
-  doc,
-  updateDoc,
-} from "firebase/firestore";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
+import { addDoc, collection, doc, updateDoc } from "firebase/firestore";
 
 const Checkout = () => {
   const { cart, getTotalAmount, resetCart } = useContext(CartContext);
@@ -63,8 +55,6 @@ const Checkout = () => {
       </div>
     );
   }
-
-  const deleteById = (id) => {};
 
   return (
     <div className="checkout-container">
