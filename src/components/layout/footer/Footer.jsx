@@ -8,7 +8,7 @@ const Footer = () => {
         py: 3,
         px: 2,
         mt: "auto",
-        backgroundColor: "black",
+        backgroundColor: "#36454F",
         color: "white",
         textAlign: "center",
         position: "sticky",
