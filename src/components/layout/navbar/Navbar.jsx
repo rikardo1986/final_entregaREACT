@@ -8,7 +8,7 @@ export const Navbar = () => {
       <Link to="/">
         <img
           className="navbar-logo"
-          src="https://res.cloudinary.com/dmezvexmw/image/upload/v1728419452/compuenter_xo7xwq.png"
+          src="https://res.cloudinary.com/dmezvexmw/image/upload/v1731680129/logo/b54bnh9fdvpyyyjpji5h.png"
           alt="logo_compuenter"
         />
       </Link>
